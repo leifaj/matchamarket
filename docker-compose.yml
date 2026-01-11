@@ -1,0 +1,40 @@
+services:
+  db:
+    image: postgres:15
+    container_name: matchamarket-db
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "${DB_PORT}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: matchamarket-backend
+    volumes:
+      - ./backend:/app
+    ports:
+      - "${BACKEND_PORT}:8000"
+    env_file:
+      - ./.env
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    container_name: matchamarket-frontend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "${FRONTEND_PORT}:3000"
+    depends_on:
+      - backend
+    env_file:
+      - ./.env  
+
+volumes:
+  pgdata:

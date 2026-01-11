@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Ceremonial Matcha",
+    "description": "Premium green tea powder for traditional tea ceremonies.",
+    "price": 29.99,
+    "inventory": 50,
+    "image_urls": ["https://example.com/images/matcha1.jpg"]
+  },
+  {
+    "name": "Organic Matcha Latte",
+    "description": "Smooth latte mix made with organic matcha.",
+    "price": 19.99,
+    "inventory": 100,
+    "image_urls": ["https://example.com/images/matcha2.jpg"]
+  },
+  {
+    "name": "Matcha Whisk Set",
+    "description": "Bamboo whisk and bowl set for perfect froth.",
+    "price": 39.99,
+    "inventory": 25,
+    "image_urls": ["https://example.com/images/matcha3.jpg"]
+  },
+  {
+    "name": "Matcha Scoop",
+    "description": "Bamboo scoop for precise matcha measurements.",
+    "price": 9.99,
+    "inventory": 150,
+    "image_urls": ["https://example.com/images/matcha4.jpg"]
+  },
+  {
+    "name": "Ceremonial Tea Bowl",
+    "description": "Handcrafted bowl for preparing matcha.",
+    "price": 24.99,
+    "inventory": 60,
+    "image_urls": ["https://example.com/images/matcha5.jpg"]
+  },
+  {
+    "name": "Matcha Storage Tin",
+    "description": "Air-tight tin to keep your matcha fresh.",
+    "price": 12.99,
+    "inventory": 80,
+    "image_urls": ["https://example.com/images/matcha6.jpg"]
+  },
+  {
+    "name": "Matcha Travel Set",
+    "description": "Portable matcha kit for on-the-go enjoyment.",
+    "price": 34.99,
+    "inventory": 30,
+    "image_urls": ["https://example.com/images/matcha7.jpg"]
+  },
+  {
+    "name": "Matcha Energy Bars",
+    "description": "Healthy snack with real matcha flavor.",
+    "price": 14.99,
+    "inventory": 200,
+    "image_urls": ["https://example.com/images/matcha8.jpg"]
+  },
+  {
+    "name": "Matcha Face Mask",
+    "description": "Natural skincare with antioxidant matcha.",
+    "price": 19.99,
+    "inventory": 75,
+    "image_urls": ["https://example.com/images/matcha9.jpg"]
+  },
+  {
+    "name": "Matcha Chocolate",
+    "description": "Sweet chocolate infused with matcha powder.",
+    "price": 7.99,
+    "inventory": 120,
+    "image_urls": ["https://example.com/images/matcha10.jpg"]
+  }
+]

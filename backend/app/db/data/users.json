@@ -1,0 +1,82 @@
+[
+  {
+    "username": "admin_user",
+    "email": "admin@example.com",
+    "password_hash": "fakehash1",
+    "first_name": "Admin",
+    "last_name": "User",
+    "role": "admin"
+  },
+  {
+    "username": "bob_smith",
+    "email": "bob@example.com",
+    "password_hash": "fakehash2",
+    "first_name": "Bob",
+    "last_name": "Smith",
+    "role": "customer"
+  },
+  {
+    "username": "carol88",
+    "email": "carol@example.com",
+    "password_hash": "fakehash3",
+    "first_name": "Carol",
+    "last_name": "Johnson",
+    "role": "customer"
+  },
+  {
+    "username": "dave2026",
+    "email": "dave@example.com",
+    "password_hash": "fakehash4",
+    "first_name": "Dave",
+    "last_name": "Lee",
+    "role": "customer"
+  },
+  {
+    "username": "eve_green",
+    "email": "eve@example.com",
+    "password_hash": "fakehash5",
+    "first_name": "Eve",
+    "last_name": "Green",
+    "role": "customer"
+  },
+  {
+    "username": "frank01",
+    "email": "frank@example.com",
+    "password_hash": "fakehash6",
+    "first_name": "Frank",
+    "last_name": "Brown",
+    "role": "customer"
+  },
+  {
+    "username": "grace_h",
+    "email": "grace@example.com",
+    "password_hash": "fakehash7",
+    "first_name": "Grace",
+    "last_name": "Harris",
+    "role": "customer"
+  },
+  {
+    "username": "henry_lee",
+    "email": "henry@example.com",
+    "password_hash": "fakehash8",
+    "first_name": "Henry",
+    "last_name": "Lee",
+    "role": "customer"
+  },
+  {
+    "username": "isabel99",
+    "email": "isabel@example.com",
+    "password_hash": "fakehash9",
+    "first_name": "Isabel",
+    "last_name": "Martinez",
+    "role": "customer"
+  },
+  {
+    "username": "jackson_p",
+    "email": "jackson@example.com",
+    "password_hash": "fakehash10",
+    "first_name": "Jackson",
+    "last_name": "Perez",
+    "role": "customer"
+  }
+]
