@@ -1,26 +1,21 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Fraunces&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-foreground: #171717;
+  --color-powder-white: #f3f6f3;
+  --color-light-blue: #9ebeed;
+  --color-medium-blue: #4e90f5;
+  --color-light-green: #94c000;
+  --color-dark-green: #4b6b03;
+  
+  --font-fraunces: Fraunces, serif;
+  --font-rubik: Rubik, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-powder-white text-foreground font-rubik;
 }

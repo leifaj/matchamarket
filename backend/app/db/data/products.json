@@ -4,69 +4,69 @@
     "description": "Premium green tea powder for traditional tea ceremonies.",
     "price": 29.99,
     "inventory": 50,
-    "image_urls": ["https://example.com/images/matcha1.jpg"]
+    "image_urls": ["https://plus.unsplash.com/premium_photo-1694825173868-ed003c071068?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Organic Matcha Latte",
     "description": "Smooth latte mix made with organic matcha.",
     "price": 19.99,
     "inventory": 100,
-    "image_urls": ["https://example.com/images/matcha2.jpg"]
+    "image_urls": ["https://images.unsplash.com/photo-1767721887917-ad186b3f5f2d?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Matcha Whisk Set",
     "description": "Bamboo whisk and bowl set for perfect froth.",
     "price": 39.99,
     "inventory": 25,
-    "image_urls": ["https://example.com/images/matcha3.jpg"]
+    "image_urls": ["https://plus.unsplash.com/premium_photo-1694540110902-085fc87460b0?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Matcha Scoop",
     "description": "Bamboo scoop for precise matcha measurements.",
     "price": 9.99,
     "inventory": 150,
-    "image_urls": ["https://example.com/images/matcha4.jpg"]
+    "image_urls": ["https://plus.unsplash.com/premium_photo-1694825173868-ed003c071068?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Ceremonial Tea Bowl",
     "description": "Handcrafted bowl for preparing matcha.",
     "price": 24.99,
     "inventory": 60,
-    "image_urls": ["https://example.com/images/matcha5.jpg"]
+    "image_urls": ["https://images.unsplash.com/photo-1624893464449-22a7e40de7c9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Matcha Storage Tin",
     "description": "Air-tight tin to keep your matcha fresh.",
     "price": 12.99,
     "inventory": 80,
-    "image_urls": ["https://example.com/images/matcha6.jpg"]
+    "image_urls": ["https://images.unsplash.com/photo-1696739696220-8d2e27465662?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Matcha Travel Set",
     "description": "Portable matcha kit for on-the-go enjoyment.",
     "price": 34.99,
     "inventory": 30,
-    "image_urls": ["https://example.com/images/matcha7.jpg"]
+    "image_urls": ["https://images.unsplash.com/photo-1521583055522-775d8a39c28d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Matcha Energy Bars",
     "description": "Healthy snack with real matcha flavor.",
     "price": 14.99,
     "inventory": 200,
-    "image_urls": ["https://example.com/images/matcha8.jpg"]
+    "image_urls": ["https://plus.unsplash.com/premium_photo-1726676075781-87fea166d885?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Matcha Face Mask",
     "description": "Natural skincare with antioxidant matcha.",
     "price": 19.99,
     "inventory": 75,
-    "image_urls": ["https://example.com/images/matcha9.jpg"]
+    "image_urls": ["https://images.unsplash.com/photo-1743927773510-cc1ad4f46217?q=80&w=784&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   },
   {
     "name": "Matcha Chocolate",
     "description": "Sweet chocolate infused with matcha powder.",
     "price": 7.99,
     "inventory": 120,
-    "image_urls": ["https://example.com/images/matcha10.jpg"]
+    "image_urls": ["https://plus.unsplash.com/premium_photo-1732197903917-ef8f9204f197?q=80&w=1296&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   }
 ]
