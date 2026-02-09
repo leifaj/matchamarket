@@ -1,8 +1,9 @@
  /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Fraunces&family=Literata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
 
 /* Custom CSS variables */
 :root {
+  /* Colors */
   --color-powder-white: #f9f9f9;
   --color-black: #1f1f1f;
   --color-lemon-cream: #e8eabc;
@@ -10,9 +11,26 @@
   --color-medium-green: #7aa520;
   --color-dark-green: #2c6c24;
 
-  --font-fraunces: 'Fraunces', serif;
-  --font-rubik: 'Rubik', sans-serif;
-  --font-literata: 'Literata', serif;
+  /* Fonts */
+  --font-solway: 'Solway', sans-serif;
+
+  /* Font sizes */
+  --fs-1: 12px;
+  --fs-2: 16px;
+  --fs-3: 20px;
+}
+
+/* Custom classes */
+
+.fontsize-1 {
+  font-size: var(--fs-1);
+}
+.fontsize-2 {
+  font-size: var(--fs-2);
+}
+
+.fontsize-3 {
+  font-size: var(--fs-3);
 }
 
 /* Global resets */
@@ -20,14 +38,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: normal;
 }
 
-body {
-  font-family: var(--font-literata);
+html, body {
+  font-family: var(--font-solway);
   background-color: var(--color-powder-white);
   color: var(--color-black);
-  font-size: 16px;
+  font-size: var(--fs-2);
   line-height: 1.5;
+}
+
+/* Media queries for responsiveness  */
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: var(--fs-1);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  html, body {
+    font-size: var(--fs-2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html, body {
+    font-size: var(--fs-3);
+  }
 }
 
 /* Links */
@@ -65,37 +103,4 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-/* Utility classes you can use */
-.flex {
-  display: flex;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.border-b {
-  border-bottom: 1px solid #ccc;
 }
