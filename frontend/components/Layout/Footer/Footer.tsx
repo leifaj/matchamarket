@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 export default function Footer() {
     return(
         <footer className={styles.footer}>
-            <p>© 2026 Matcha Market. All rights reserved.</p>
+            <p>© 2026 Leianne Fajutagana. All rights reserved.</p>
         </footer>
     )
 }
