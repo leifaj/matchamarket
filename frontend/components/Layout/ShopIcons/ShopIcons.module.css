@@ -1,0 +1,13 @@
+.iconList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 35px;
+    color: var(--color-dark-green);
+}
+
+.iconListItem {
+    list-style: none;
+    width: 30px;
+}

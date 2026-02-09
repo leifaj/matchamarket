@@ -1,21 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Fraunces&display=swap');
+ /* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Fraunces&family=Literata&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Custom CSS variables */
+:root {
+  --color-powder-white: #f9f9f9;
+  --color-black: #1f1f1f;
+  --color-lemon-cream: #e8eabc;
+  --color-light-green: #cddd77;
+  --color-medium-green: #7aa520;
+  --color-dark-green: #2c6c24;
 
-@theme {
-  --color-foreground: #171717;
-  --color-powder-white: #f3f6f3;
-  --color-light-blue: #9ebeed;
-  --color-medium-blue: #4e90f5;
-  --color-light-green: #94c000;
-  --color-dark-green: #4b6b03;
-  
-  --font-fraunces: Fraunces, serif;
-  --font-rubik: Rubik, sans-serif;
+  --font-fraunces: 'Fraunces', serif;
+  --font-rubik: 'Rubik', sans-serif;
+  --font-literata: 'Literata', serif;
+}
+
+/* Global resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  @apply bg-powder-white text-foreground font-rubik;
+  font-family: var(--font-literata);
+  background-color: var(--color-powder-white);
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
+  color: var(--color-medium-green);
+  text-decoration: none;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--color-dark-green);
+}
+
+/* Lists */
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: color 0.3s;
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Utility classes you can use */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-b {
+  border-bottom: 1px solid #ccc;
 }
